@@ -1,0 +1,21 @@
+/** Universal **/
+* {
+	color: white;
+	background-color: #121212;
+	font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+
+/** Typography **/
+h1 {
+	font-size: 48px;
+	font-weight: bold;
+	text-align: center;
+}
+
+/** Images **/
+img {
+	height: auto;
+	width: 500px;
+	border: solid #2D2D2D 10px;
+	border-radius: 16px;	
+}
