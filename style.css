@@ -1,21 +1,92 @@
-/** Universal **/
+/** Fonts **/
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap');
+
+/** Global **/
 * {
-	color: white;
-	background-color: #121212;
+	color: black;
+	background-color: white;
 	font-family: 'IBM Plex Sans Arabic', sans-serif;
 }
 
-/** Typography **/
-h1 {
+body {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+
+/** Header **/
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 	font-size: 48px;
 	font-weight: bold;
+	padding: 40px;
+}
+
+.header .logo {
+	height: 48px;
+	width: 48px;
+}
+
+/** footer **/
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 40px;
+}
+
+.footer p {
+	background-color: white;
+}
+
+.footer a {
+	text-decoration: none;
+	font-weight: 500;
+}
+
+/** Recipes **/
+.recipes {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.dish {
+	display: flex;
+	flex-direction: column;
+	margin: 40px;
+	padding: 40px;
+	background-color: #F5F5F5;
+	min-width: 300px;
+	gap: 15px;
+}
+
+.dish .recipe-img {
+	width: 300px;
+	height: 300px;
+}
+
+.dish h3,p {
+	background-color: #F5F5F5;
+	margin: 0;
+	padding: 0;
+}
+
+.dish a {
+	text-decoration: none;
 	text-align: center;
 }
 
-/** Images **/
-img {
-	height: auto;
-	width: 500px;
-	border: solid #2D2D2D 10px;
-	border-radius: 16px;	
+.dish .button {
+	background-color: black;
+	color: white;
+	font-size: 14px;
+	border: 0 solid black;
+	padding: 10px;
+	width: 100px;
 }
