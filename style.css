@@ -119,28 +119,18 @@ body {
 	flex-direction: column;
 }
 
-.recipes-body .ingredients h2,
-.recipes-body .preparation h2 {
+.recipes-body .ingredients h2,h5
+,.recipes-body .preparation h2,h5 {
 	background-color: #F5F5F5;
 }
 
-.recipes-body .ingredients ul,
-.recipes-body .preparation ul {
+.recipes-body .ingredients ul,ol
+,.recipes-body .preparation ul,ol {
 	background-color: #F5F5F5;
 	margin: 0 20px;
 	padding: 0;
 	display: flex;
 	flex-direction: column;
-	gap: 10px;
-}
-
-.recipes-body .preparation ol {
-	background-color: #F5F5F5;
-	margin: 0 20px;
-	padding: 0;
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
 	gap: 10px;
 }
 
