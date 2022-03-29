@@ -112,6 +112,10 @@ body {
 	height: 500px;
 }
 
+.img-box {
+	background-color: #F5F5F5;
+}
+
 .ingredients, .preparation {
 	background-color: #F5F5F5;
 	min-width: 300px;
