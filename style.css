@@ -48,7 +48,7 @@ body {
 	font-weight: 500;
 }
 
-/** Recipes **/
+/** Recipes : Homepage **/
 .recipes {
 	display: flex;
 	justify-content: center;
@@ -89,4 +89,62 @@ body {
 	border: 0 solid black;
 	padding: 10px;
 	width: 100px;
+}
+
+/** Single Recipe **/
+.center-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.recipes-body {
+	background-color: #F5F5F5;
+	display: flex;
+	margin: 0 60px;
+	padding: 40px;
+	gap: 40px;
+	width: 1200px;
+}
+
+.big-recipe-img {
+	width: 500px;
+	height: 500px;
+}
+
+.ingredients, .preparation {
+	background-color: #F5F5F5;
+	min-width: 300px;
+	display: flex;
+	flex-direction: column;
+}
+
+.recipes-body .ingredients h2,
+.recipes-body .preparation h2 {
+	background-color: #F5F5F5;
+}
+
+.recipes-body .ingredients ul,
+.recipes-body .preparation ul {
+	background-color: #F5F5F5;
+	margin: 0 20px;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.recipes-body .preparation ol {
+	background-color: #F5F5F5;
+	margin: 0 20px;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+
+.recipes-body .ingredients li,
+.recipes-body .preparation li {
+	background-color: #F5F5F5;
 }
