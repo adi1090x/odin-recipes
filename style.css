@@ -26,6 +26,10 @@ body {
 	padding: 40px;
 }
 
+.header a {
+	text-decoration: none;
+}
+
 .header .logo {
 	height: 48px;
 	width: 48px;
@@ -62,7 +66,7 @@ body {
 	margin: 40px;
 	padding: 40px;
 	background-color: #F5F5F5;
-	min-width: 300px;
+	width: 300px;
 	gap: 15px;
 }
 
